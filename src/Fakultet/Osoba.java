@@ -25,4 +25,9 @@ public class Osoba {
     public String getPrezime() {
         return prezime;
     }
+
+    public void stampaj (){
+        System.out.println("Ime: " + this.ime + ". Prezime: " + this.prezime);
+    }
+
 }

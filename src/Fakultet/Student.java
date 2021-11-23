@@ -8,4 +8,9 @@ public class Student extends Osoba{
         super(ime, prezime);
         this.brojIndeksa = brojIndeksa;
     }
+
+    public void stampaj (){
+        super.stampaj();
+        System.out.println("Studentov broj indeksa je " +this.brojIndeksa);
+    }
 }
